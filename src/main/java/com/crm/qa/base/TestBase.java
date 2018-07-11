@@ -41,6 +41,7 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.equals("chrome")){
+			System.out.println("Test for CI CD Sudhir");
 			System.setProperty("webdriver.chrome.driver", "E:\\Selenium_Training\\Selenium_Training\\src\\Assignmnets\\drivers\\chromedriver.exe");	
 			driver = new ChromeDriver(); 
 		}
